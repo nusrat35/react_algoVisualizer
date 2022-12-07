@@ -1,3 +1,44 @@
-.App {
+body{
+    margin: 0;
+    padding: 0;
+}
+.Header{
+    background-color: rgb(6, 170, 6);
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.logo{
+    align-self: center;
+    font-family: cursive;
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+}
+/* .logo>span{
+    color:"orange" !important;
+    font-size:"25px"
+} */
+.algoName{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 15px;
+    justify-content: right;
+}
+.algoName>li{
+    color: rgb(233, 233, 233);
+}
+.algoName>li:hover{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    /* font-size: 25px; */
+}
+
+.footer{
   text-align: center;
+  background-color: lightgray;
+  padding: 10px;
 }

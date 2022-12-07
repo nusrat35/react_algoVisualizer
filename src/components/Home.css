@@ -1,0 +1,19 @@
+:root{
+    --background: aqua;
+}
+.homeContainer{
+    text-align: center;
+}
+#sort{
+    margin-left: 10px;
+}
+.chart{
+    display: flex;
+    gap: 5px;
+    margin: 20px 10% 20px 10%;
+    align-items: flex-end;
+}
+.chart>div{
+    /* background-color: var(--background); */
+    width: 50px;
+}
